@@ -1,0 +1,103 @@
+@media (max-width: 767px) {
+    .header-top {
+      padding: 15px 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .panel-heading img{
+      
+      height:100px;
+      width:170px;
+    }
+    nav {
+      margin-right: 0;
+      position: absolute;
+      right: 0;
+      top: 86px;
+      text-align: right;
+      padding: 20px 0;
+      z-index: 5;
+      background: transparent;
+    }
+    .gSnail {
+        font-family: 'Sail', cursive;
+        font-size: 25px !important;
+    }
+    .se:after{
+      background:none;
+    }
+    .fifthDiv{
+        height: auto;
+    }
+    .overlay {
+        padding: 25px 25px;
+        background: #fff;
+        border-radius: 3px;
+        position: relative;
+        z-index: 2;
+        font-size:12px;
+    
+    }
+    .subBorder {
+        width: 300px;
+      }
+
+  }
+  @media (max-width: 767px) {
+
+    nav a {
+      margin: 5px 5px;
+      /* width: 50%; */
+      font-size:14px;
+      color:#45a247;
+    }
+    nav {text-align:left;
+    height:30%;
+    }
+  }  
+  @media (min-width: 1200px) {
+    .firstDiv {
+      width: 75%;
+    }
+  }
+  @media (max-width: 1199px) {
+    .firstDiv {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .firstDiv {
+      margin-top: 3rem;
+      width: 97%;
+    }
+  
+  .secondDiv,.fifthDiv, .aroundWorld,.contact,.container, .footer,.row{
+    width: 68.75%;
+    margin: 0 auto;
+  }
+}
+  @media (min-width: 1200px) {
+    .secondDiv,.fifthDiv, .aroundWorld,.contact, .footer,.container {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .secondDiv,.fifthDiv, .aroundWorld,.contact, .footer,.container {
+      width: 90%;
+    }
+    .container{
+        width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    .secondDiv,.fifthDiv, .aroundWorld,.contact, .footer,.container,.row {
+      width: 97%;
+    }
+  }
+  @media (max-width: 767px) {
+    .col-lg-6 {
+     max-width: 90%;
+    }
+}
